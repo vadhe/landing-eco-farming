@@ -5,6 +5,9 @@ import SectionFirst from '~/components/SectionFirst'
 import Profil from '~/components/Profil'
 import Video from '~/components/Video'
 import Legalitas from '~/components/Legalitas'
+import Manfaat from '~/components/Manfaat'
+import Cara from '~/components/Cara'
+// import TestimoniFirst from '~/components/TestimoniFirst'
 
 const IndexPage: NextPage = () => (
   <Box>
@@ -12,6 +15,9 @@ const IndexPage: NextPage = () => (
     <Profil />
     <Video />
     <Legalitas />
+    <Manfaat />
+    <Cara />
+    {/* <TestimoniFirst /> */}
   </Box>
 )
 
