@@ -1,4 +1,4 @@
-import { Box, Heading, Img, Text, Button } from '@chakra-ui/react'
+import { Box, Img, Text, Button } from '@chakra-ui/react'
 import React from 'react'
 
 const SectionFirts: React.FC = () => {

@@ -83,9 +83,9 @@ const Video: React.FC = () => {
         my={6}
         width={{ base: '90%', lg: '200px' }}
         mx="auto"
-        color="#212121"
+        color="#fff"
         fontFamily="Righteous, cursive"
-        backgroundColor="#ffc107"
+        backgroundColor="#2e7d32"
       >
         PESAN KLIK DI SINI
       </Button>
