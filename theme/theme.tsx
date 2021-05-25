@@ -12,7 +12,7 @@ const theme = extendTheme({
   colors: {
     base: {
       green: {
-        500: '#558b2f'
+        500: '#33691E'
       }
     }
   }

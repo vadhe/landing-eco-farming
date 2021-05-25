@@ -7,7 +7,10 @@ import Video from '~/components/Video'
 import Legalitas from '~/components/Legalitas'
 import Manfaat from '~/components/Manfaat'
 import Cara from '~/components/Cara'
-// import TestimoniFirst from '~/components/TestimoniFirst'
+import TestimoniFirst from '~/components/TestimoniFirst'
+import Product from '~/components/products/Product'
+import CtaWa from '~/components/CtaWa'
+import IconWaSide from '~/components/IconWaSide'
 
 const IndexPage: NextPage = () => (
   <Box>
@@ -17,7 +20,10 @@ const IndexPage: NextPage = () => (
     <Legalitas />
     <Manfaat />
     <Cara />
-    {/* <TestimoniFirst /> */}
+    <TestimoniFirst />
+    <Product />
+    <CtaWa />
+    <IconWaSide />
   </Box>
 )
 
