@@ -48,17 +48,19 @@ const Cara: React.FC = () => {
       </Heading>
       <Img mx="auto" src="/images/tabel.png" />
       <Box textAlign="center">
-        <Button
-          boxShadow="xl"
-          my={6}
-          width={{ base: '90%', lg: '200px' }}
-          mx="auto"
-          color="#fff"
-          fontFamily="Righteous, cursive"
-          backgroundColor="#558B2F"
-        >
-          PESAN KLIK DI SINI
-        </Button>
+        <a href="#paket">
+          <Button
+            boxShadow="xl"
+            my={6}
+            width={{ base: '90%', lg: '200px' }}
+            mx="auto"
+            color="#fff"
+            fontFamily="Righteous, cursive"
+            backgroundColor="#558B2F"
+          >
+            PESAN KLIK DI SINI
+          </Button>
+        </a>
       </Box>
     </Box>
   )

@@ -11,6 +11,7 @@ import TestimoniFirst from '~/components/TestimoniFirst'
 import Product from '~/components/products/Product'
 import CtaWa from '~/components/CtaWa'
 import IconWaSide from '~/components/IconWaSide'
+import Footer from '~/components/Footer'
 
 const IndexPage: NextPage = () => (
   <Box>
@@ -24,6 +25,7 @@ const IndexPage: NextPage = () => (
     <Product />
     <CtaWa />
     <IconWaSide />
+    <Footer />
   </Box>
 )
 

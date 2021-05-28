@@ -78,17 +78,19 @@ const Video: React.FC = () => {
         Eco Farming dapat menekan kebutuhan pupuk lainnya sampai 25%, bahkan 0% sehingga bisa menjadi alternatif pengembangan produksi
         pertanian sehat ramah lingkungan menjadi lebih praktis, efektif, efisien dan ekonomis (menghemat biaya pemupukan).{' '}
       </Text>
-      <Button
-        boxShadow="xl"
-        my={6}
-        width={{ base: '90%', lg: '200px' }}
-        mx="auto"
-        color="#fff"
-        fontFamily="Righteous, cursive"
-        backgroundColor="#2e7d32"
-      >
-        PESAN KLIK DI SINI
-      </Button>
+      <a href="#paket">
+        <Button
+          boxShadow="xl"
+          my={6}
+          width={{ base: '90%', lg: '200px' }}
+          mx="auto"
+          color="#fff"
+          fontFamily="Righteous, cursive"
+          backgroundColor="#2e7d32"
+        >
+          PESAN KLIK DI SINI
+        </Button>
+      </a>
     </Box>
   )
 }

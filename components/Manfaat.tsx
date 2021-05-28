@@ -38,17 +38,19 @@ const Manfaat: React.FC = () => {
         <ListItem>Menekan pemakaian hingga 25% pupuk kimia dari normalnya</ListItem>
       </UnorderedList>
       <Box textAlign="center">
-        <Button
-          boxShadow="xl"
-          my={6}
-          width={{ base: '90%', lg: '200px' }}
-          mx="auto"
-          color="#fff"
-          fontFamily="Righteous, cursive"
-          backgroundColor="#558B2F"
-        >
-          PESAN KLIK DI SINI
-        </Button>
+        <a href="#paket">
+          <Button
+            boxShadow="xl"
+            my={6}
+            width={{ base: '90%', lg: '200px' }}
+            mx="auto"
+            color="#fff"
+            fontFamily="Righteous, cursive"
+            backgroundColor="#558B2F"
+          >
+            PESAN KLIK DI SINI
+          </Button>
+        </a>
       </Box>
     </Box>
   )

@@ -24,17 +24,19 @@ const SectionFirts: React.FC = () => {
       <Text fontFamily="Timmana, sans-serif" fontSize={{ base: '3xl', lg: '5xl' }} color="#e0e0e0">
         LAHAN SUBUR, PETANI MAKMUR
       </Text>
-      <Button
-        boxShadow="xl"
-        my={6}
-        width={{ base: '90%', lg: '200px' }}
-        mx="auto"
-        color="#212121"
-        fontFamily="Righteous, cursive"
-        backgroundColor="#ffc107"
-      >
-        PESAN KLIK DI SINI
-      </Button>
+      <a href="#paket">
+        <Button
+          boxShadow="xl"
+          my={6}
+          width={{ base: '90%', lg: '200px' }}
+          mx="auto"
+          color="#212121"
+          fontFamily="Righteous, cursive"
+          backgroundColor="#ffc107"
+        >
+          PESAN KLIK DI SINI
+        </Button>
+      </a>
     </Box>
   )
 }

@@ -10,8 +10,9 @@ interface CardProduct {
   harga: string
   bonus: string
   colorBonus: string
+  link: string
 }
-const CardProduct: React.FC<CardProduct> = ({ image, color, lists, namaPaket, cocok, harga, colorBonus, bonus }) => {
+const CardProduct: React.FC<CardProduct> = ({ image, color, lists, namaPaket, cocok, harga, colorBonus, bonus, link }) => {
   return (
     <Box
       my={12}
@@ -37,18 +38,21 @@ const CardProduct: React.FC<CardProduct> = ({ image, color, lists, namaPaket, co
       <Text fontFamily="Roboto" color="black">
         {cocok}
       </Text>
+
       <Box textAlign="center">
-        <Button
-          boxShadow="xl"
-          my={6}
-          width={{ base: '90%', lg: '200px' }}
-          mx="auto"
-          color="#fff"
-          fontFamily="Righteous, cursive"
-          backgroundColor={color}
-        >
-          KLIK PESAN SEKARANG
-        </Button>
+        <a href={link} target="_blank" rel="noreferrer">
+          <Button
+            boxShadow="xl"
+            my={6}
+            width={{ base: '90%', lg: '200px' }}
+            mx="auto"
+            color="#fff"
+            fontFamily="Righteous, cursive"
+            backgroundColor={color}
+          >
+            KLIK PESAN SEKARANG
+          </Button>
+        </a>
       </Box>
       <UnorderedList fontFamily="Roboto" color="black" fontWeight="bold">
         {lists.map(item => (

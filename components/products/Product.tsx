@@ -23,7 +23,7 @@ const Product: React.FC = () => {
   ]
   const listPaketEcer = ['1 Box Eco Farming']
   return (
-    <Box mt={6} bg="#558B2F" py={16}>
+    <Box mt={6} bg="#558B2F" py={16} id="paket">
       <Heading color="white" as="h5" px={6} fontSize={{ base: '3xl', lg: '4xl' }} textAlign="center" fontFamily="Bungee Inline, cursive">
         PILIHAN PAKET ORDER ECO FARMING{' '}
       </Heading>
@@ -36,6 +36,7 @@ const Product: React.FC = () => {
         bonus="Bonus 2 Blister ER"
         colorBonus="#512da8"
         cocok="Cocok untuk lahan Sawah/Kebun ukuran Diatas 2 Hektar. "
+        link="https://api.whatsapp.com/send/?phone=6285341492250&text=Halo+admin%2C+saya+mau+order+Eco+Farming+Paket+Agen+Reguler+34+Box+dan+bonusnya.+Bisa+dibantu+sekarang..&app_absent=0"
       />
       <CardProduct
         image={["url('/images/bg-paket-basic.png')", '/images/paket-agen-basic.png']}
@@ -46,6 +47,7 @@ const Product: React.FC = () => {
         bonus="Bonus 1 Blister ER)"
         colorBonus="#b71c1c"
         cocok="Cocok untuk lahan Sawah/Kebun sekitar 1 Hektar."
+        link="https://api.whatsapp.com/send/?phone=6285341492250&text=Halo+admin%2C+saya+mau+order+Eco+Farming+Paket+Agen+Basic+11+Box+dan+bonusnya.+Bisa+dibantu+sekarang..&app_absent=0"
       />
       <CardProduct
         image={["url('/images/bg-paket-ecer.png')", '/images/paket-ecer.png']}
@@ -57,6 +59,7 @@ const Product: React.FC = () => {
         bonus=""
         colorBonus="#512da8"
         cocok="Cocok untuk lahan kecil seperti pekarangan rumah. "
+        link="https://api.whatsapp.com/send/?phone=6285341492250&text=Halo+admin%2C+saya+mau+order+Eco+Farming+Paket+Ecer+Per+Box.+Boleh+dibantu+sekarang..&app_absent=0"
       />
       <Text
         textAlign="center"
