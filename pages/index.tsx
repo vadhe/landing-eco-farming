@@ -12,6 +12,7 @@ import Product from '~/components/products/Product'
 import CtaWa from '~/components/CtaWa'
 import IconWaSide from '~/components/IconWaSide'
 import Footer from '~/components/Footer'
+import SlideTestimoni from '~/components/SlideTestimoni'
 
 const IndexPage: NextPage = () => (
   <Box>
@@ -22,6 +23,7 @@ const IndexPage: NextPage = () => (
     <Manfaat />
     <Cara />
     <TestimoniFirst />
+    <SlideTestimoni />
     <Product />
     <CtaWa />
     <IconWaSide />
