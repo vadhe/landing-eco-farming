@@ -37,7 +37,7 @@ const Video: React.FC = () => {
         fontFamily="roboto, sans-serif"
         my={6}
         px={{ base: '4', lg: '52' }}
-        color={{ base: '#ffc106', lg: '#31373d' }}
+        color={{ base: '', lg: '#31373d' }}
       >
         ECO FARMING pupuk Organik Super Aktif hasil penelitian ahli pertanian lebih dari 17 tahun telah teruji dan terbukti ECO FARMING
         mampu mengembalikan kesuburan tanah, menjadikan tanaman sehat dan produktif serta ramah lingkungan.{' '}
@@ -45,7 +45,7 @@ const Video: React.FC = () => {
       <Text
         fontSize={{ base: 'xl', lg: 'xl' }}
         px={{ base: '4', lg: '52' }}
-        color={{ base: '#ffc106', lg: '#31373d' }}
+        color={{ base: '', lg: '#31373d' }}
         fontFamily="roboto, sans-serif"
         my={6}
       >
@@ -59,7 +59,7 @@ const Video: React.FC = () => {
         fontFamily="roboto, sans-serif"
         fontSize={{ base: 'lg', lg: 'xl' }}
         my={6}
-        color={{ base: '#ffc106', lg: '#31373d' }}
+        color={{ base: '', lg: '#31373d' }}
       >
         Eco Farming adalah pupuk atau nutrisi berbahan organik super aktif yang sudah mengandung unsur hara lengkap sesuai kebutuhan tanaman
         juga dilengkapi dengan bakteri positif yang akan menjadi biokatalisator dalam proses memperbaiki sifat fisik, biologi dan kimia
@@ -74,7 +74,7 @@ const Video: React.FC = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         />
       </AspectRatio>
-      <Text fontFamily="roboto, sans-serif" my={6} px={{ base: '4', lg: '52' }} color={{ base: '#ffc106', lg: '#31373d' }} fontSize="lg">
+      <Text fontFamily="roboto, sans-serif" my={6} px={{ base: '4', lg: '52' }} color={{ base: '', lg: '#31373d' }} fontSize="lg">
         Eco Farming dapat menekan kebutuhan pupuk lainnya sampai 25%, bahkan 0% sehingga bisa menjadi alternatif pengembangan produksi
         pertanian sehat ramah lingkungan menjadi lebih praktis, efektif, efisien dan ekonomis (menghemat biaya pemupukan).{' '}
       </Text>
